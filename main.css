@@ -1,6 +1,78 @@
+/* Paleta de cores 
+
+#FEC89A #F9DCC4 #F8EDEB #FCD5CE #FFB5A7  */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Header */
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: gray;
+}
+
+.header {
+    background-color: hsla(10, 100%, 83%, 0.9);
+}
+
+.header h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar-nav .nav-link.active {
+    color: white
+}
+
+.nav-link {
+    text-align: center;
+}
+
+
+/* Estilo básico para a seção highlight */
+#highlights {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#highlights .highlight {
+    margin-top: 30px;
+}
+
+#highlights .highlight .row {
+    margin-top: 20px;
+}
+
+#highlights img {
+    margin-bottom: 15px;
+}
+
+  /* Estilo básico para a seção Sobre Nós */
+#about {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#about img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+  /* Estilo básico para a seção Produtos */
+#products {
+    padding: 50px 0;
+}
+
+#products .category {
+    margin-bottom: 40px;
+}
+
+#products img {
+    margin-bottom: 15px;
+}
+  
