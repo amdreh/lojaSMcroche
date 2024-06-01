@@ -2,6 +2,11 @@
 
 #FEC89A #F9DCC4 #F8EDEB #FCD5CE #FFB5A7  */
 
+@font-face {
+    font-family: 'Merrycle Carved Font';
+    src: url('/fonts/Merrycle\ Carved\ Font\ by\ Jasm\ 7NTypes.otf') format('truetype');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -31,6 +36,31 @@ header {
 
 .nav-link {
     text-align: center;
+}
+
+#title {
+    font-family: Merrycle Carved Font;
+    font-size: clamp(10vw, 36px, 7vw) ;
+    font-weight:100 ;
+    margin-bottom: -10px;
+    
+}
+
+#subtitle {
+    font-family: Sevillana;
+    font-size: clamp(3vw, 20px, 9vw);
+}
+
+header .container img {
+    width: 20vw;
+}
+
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
