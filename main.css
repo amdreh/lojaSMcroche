@@ -30,6 +30,8 @@ header {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+
+
 .navbar-nav .nav-link.active {
     color: white
 }
@@ -40,15 +42,10 @@ header {
 
 #title {
     font-family: Merrycle Carved Font;
-    font-size: clamp(10vw, 36px, 7vw) ;
+    font-size: clamp(9vw, 36px, 7vw) ;
     font-weight:100 ;
     margin-bottom: -10px;
     
-}
-
-#subtitle {
-    font-family: Sevillana;
-    font-size: clamp(3vw, 20px, 9vw);
 }
 
 header .container img {
