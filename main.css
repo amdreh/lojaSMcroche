@@ -22,18 +22,11 @@ header {
     background-color: gray;
 }
 
-.header {
-    background-color: hsla(10, 100%, 83%, 0.9);
-}
-
-.header h1 {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-
 .navbar-nav .nav-link.active {
     color: white
 }
+
+.navbar-toggle
 
 .nav-link {
     text-align: center;
@@ -48,7 +41,7 @@ header {
 }
 
 header .container img {
-    width: 20vw;
+    height: 15vw;
 }
 
 
@@ -57,6 +50,10 @@ header .container img {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+header ul {
+    flex-wrap: nowrap;
 }
 
 
