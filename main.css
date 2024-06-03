@@ -23,3 +23,7 @@
 .nav2 {
     display: none;
 }
+
+.navbar a {
+    text-align: center;
+}
