@@ -15,6 +15,11 @@
 
 /* Header */
 
-.navbar-md img {
+.navbar img {
     height: 20vw;
+    
+}
+
+.nav2 {
+    display: none;
 }
