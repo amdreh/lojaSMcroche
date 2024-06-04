@@ -7,6 +7,32 @@
     src: url('/fonts/Merrycle\ Carved\ Font\ by\ Jasm\ 7NTypes.otf') format('truetype');
 }
 
+@media (max-width: 576px) {
+    .nav2 {
+        display: none;
+    }
+
+    .btnHamburguer{
+        display: block;
+    }
+
+    .nav1{
+        justify-content: space-between;
+    }
+}
+
+/* Se mudar com o menu aberto ele trava */
+@media (min-width: 577px) {
+    .btnHamburguer{
+        display: none;
+    }
+
+    #title {
+        justify-content: start;
+    }
+
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -30,7 +56,7 @@
  
 .nav1{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -41,9 +67,7 @@
     
 }
 
-.nav2 {
-    display: none;
-}
+
 
 .navbar a {
     text-align: center;
@@ -55,4 +79,9 @@
 
 .btnHamburguer {
     border: 5px solid #ffffff; 
+}
+
+#logo {
+    display: flex;
+    align-items: center;
 }
