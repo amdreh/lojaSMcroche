@@ -20,10 +20,39 @@
     
 }
 
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+ 
+.nav1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar h1 {
+    font-family: Merrycle Carved Font;
+    font-size: 9vw;
+    padding-right: 9vw;
+    
+}
+
 .nav2 {
     display: none;
 }
 
 .navbar a {
     text-align: center;
+}
+
+.navbar btn {
+    border: 5px solid #ffffff; 
+}
+
+.btnHamburguer {
+    border: 5px solid #ffffff; 
 }
