@@ -22,6 +22,8 @@ rgb(50, 44, 43)  */
     .nav1{
         justify-content: space-between;
     }
+
+
 }
 
 /* Se mudar com o menu aberto ele trava */
@@ -40,6 +42,9 @@ rgb(50, 44, 43)  */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    transition: all 0.3s ease;
+    font-family: Poppins, sans-serif;
 }
 
 /* Header */
@@ -48,7 +53,6 @@ header {
     position: sticky;
     top: 0;
     left: 0;
-    background-color: #ffffff;
     z-index: 999;
 }
 
@@ -69,7 +73,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    background-color: rgb(128, 128, 128, 0.2);
 }
 
 .navbar h1 {
@@ -81,7 +85,6 @@ header {
 
 .navbar a {
     text-align: center;
-    color: black;
 }
 
 .nav2 .nav-link.active {
@@ -106,4 +109,17 @@ header {
 .card {
     margin: 10px;
 
+}
+
+header li:hover {
+    background-color: rgb(128, 128, 128, 0.05);
+
+}
+
+.card-footer:last-child {
+    background-color: rgb(128, 128, 128, 0.1);
+}
+
+header ul {
+    background-color: rgb(128, 128, 128, 0);
 }
