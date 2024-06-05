@@ -24,6 +24,7 @@ rgb(50, 44, 43)  */
     }
 
 
+
 }
 
 /* Se mudar com o menu aberto ele trava */
@@ -59,6 +60,7 @@ header {
 
 .navbar img {
     height: 20vw;
+    max-height: 110px;
     
 }
 
@@ -79,7 +81,7 @@ header {
 
 .navbar h1 {
     font-family: Merrycle Carved Font;
-    font-size: 9vw;
+    font-size: 6vw;
     padding-right: 9vw;
     
 }
@@ -125,6 +127,3 @@ header ul {
     background-color: rgb(128, 128, 128, 0);
 }
 
-section {
-    padding-top: 10px ;
-}
