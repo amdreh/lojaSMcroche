@@ -124,3 +124,7 @@ header li:hover {
 header ul {
     background-color: rgb(128, 128, 128, 0);
 }
+
+section {
+    padding-top: 10px ;
+}
