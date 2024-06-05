@@ -1,6 +1,9 @@
 /* Paleta de cores 
 
-#FEC89A #F9DCC4 #F8EDEB #FCD5CE #FFB5A7  */
+rgb(228, 197, 158)
+rgb(175, 130, 96)
+rgb(128, 61, 59)
+rgb(50, 44, 43)  */
 
 @font-face {
     font-family: 'Merrycle Carved Font';
@@ -41,6 +44,14 @@
 
 /* Header */
 
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    z-index: 999;
+}
+
 .navbar img {
     height: 20vw;
     
@@ -58,6 +69,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .navbar h1 {
@@ -69,6 +81,13 @@
 
 .navbar a {
     text-align: center;
+    color: black;
+}
+
+.nav2 .nav-link.active {
+    color: #ff0000 !important; 
+    border-bottom: 2px solid red;
+    background-color: transparent !important; 
 }
 
 .navbar btn {
