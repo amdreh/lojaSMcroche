@@ -84,10 +84,22 @@
 
     <section id="products">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h2>Produtos</h2>
+            <div class="row-12">
+                <h2>Produtos</h2>
+            </div>
+            <nav class="nav nav-tabs">
+                <button data-bs-toggle="tab" data-bs-target="#tabProntaEntrega" class="nav-link active" type="button">Pronta entrega</button>
+                <button data-bs-toggle="tab" data-bs-target="#tabEncomenda" class="nav-link" type="button">Encomenda</button>
+            </nav>
+            <div class="tab-content">
+                <div class="tabProntaEntrega tab-pane active" id="tabProntaEntrega">
+                    ProntaEntrega
                 </div>
+                <div class="tabEncomenda tab-pane" id="tabEncomenda">
+                    Encomenda
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-sm-12 col-md-4 col-xl-3">
                     <div class="card">
                         <img class="card-img-top" src="https://placehold.co/100x80" alt="Card image cap">
