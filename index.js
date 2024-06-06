@@ -5,8 +5,9 @@
 // });
 
 document.addEventListener('DOMContentLoaded', function () {
+    // Para fazer o menu hamburguer sumir ao clique
     var hamburguerButton = document.getElementById('hamburguer-button');
-    var menu = new bootstrap.Collapse(document.getElementById('menu'), {toggle: false});
+    var menu = new bootstrap.Collapse(document.getElementById('menu'), { toggle: false });
 
     document.addEventListener('click', function (event) {
         var target = event.target;
@@ -17,4 +18,17 @@ document.addEventListener('DOMContentLoaded', function () {
             menu.hide();
         }
     });
+
+    // Para chamar o toast
+    const ativaToast = document.getElementById('btnSubmit');
+    const msg = document.getElementById('msgEmailEnviado');
+
+    if (ativaToast) {
+        ativaToast.addEventListener("click", function (event) {
+            event.preventDefault(); // Previne o envio do formulário
+            const toast = new bootstrap.Toast(msg);
+            toast.show();
+        });
+    }
 });
+
