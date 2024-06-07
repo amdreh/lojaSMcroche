@@ -23,7 +23,9 @@ rgb(50, 44, 43)  */
         justify-content: space-between;
     }
 
-
+    .about {
+        flex-direction: column;
+    }
 
 }
 
@@ -127,3 +129,6 @@ header ul {
     background-color: rgb(128, 128, 128, 0);
 }
 
+.aboutText {
+    display: block;
+}
