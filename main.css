@@ -146,6 +146,15 @@ header ul {
 
 body h2 {
     font-weight: 900;
+    padding: 7vw;
+}
+
+.aboutText h5 {
+    padding: 3.5vw;
+}
+
+.aboutText h5 {
+
 }
 
 h5.card-title {
