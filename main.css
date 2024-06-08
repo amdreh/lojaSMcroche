@@ -47,10 +47,21 @@ rgb(50, 44, 43)  */
     box-sizing: border-box;
     text-rendering: optimizeLegibility;
     transition: all 0.3s ease;
-    font-family: Poppins, sans-serif;
 }
 
 /* Header */
+
+h2, h3, h, h5,
+p, label { 
+font-family: Quicksand, sans-serif;
+}
+
+header ul,
+.nav-tabs .nav-link,
+.card .btn {
+    font-family: Poppins, sans-serif;
+    
+}
 
 header {
     position: sticky;
@@ -131,4 +142,17 @@ header ul {
 
 .aboutText {
     display: block;
+}
+
+body h2 {
+    font-weight: 900;
+}
+
+h5.card-title {
+    font-weight: 600;
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-family: Poppins, sans-serif;
 }
