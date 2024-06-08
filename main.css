@@ -27,6 +27,11 @@ rgb(50, 44, 43)  */
         flex-direction: column;
     }
 
+    #about img {
+        width: 90vw;
+        height: auto;
+    }
+
 }
 
 /* Se mudar com o menu aberto ele trava */
@@ -46,7 +51,7 @@ rgb(50, 44, 43)  */
     padding: 0;
     box-sizing: border-box;
     text-rendering: optimizeLegibility;
-    transition: all 0.3s ease;
+    transition: all 0.4s ease-in-out;
 }
 
 /* Header */
@@ -164,6 +169,13 @@ h5.card-title {
 input::placeholder,
 textarea::placeholder {
     font-family: Poppins, sans-serif;
+}
+
+/* ABOUT */
+
+.about img {
+    width: 40vw;
+    height: 40vw;
 }
 
 /* FOOTER */
