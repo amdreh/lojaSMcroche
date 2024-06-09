@@ -120,6 +120,10 @@ header {
     
     
 }
+
+* img {
+    border-radius: 10px;
+}
  
 .nav1{
     display: flex;
