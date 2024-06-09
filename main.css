@@ -33,19 +33,36 @@ rgb(50, 44, 43)  */
     }
 
     .overlay {
-        font-size: 10vw;
+        font-size: 6vw;
     }
 
 }
 
+/* 
+small < 576
+medium > 577 < 768
+large > 769
+*/
+
 /* Se mudar com o menu aberto ele trava */
-@media (min-width: 577px) {
+@media (min-width: 577px) and (max-width: 768px) {
     .btnHamburguer{
         display: none;
     }
 
     #title {
         justify-content: start;
+    }
+
+    .overlay {
+        font-size: 4vw;
+    }
+    
+}
+
+@media (min-width: 769px) {
+    .overlay {
+        font-size: 2vw;
     }
 
 }
@@ -67,9 +84,18 @@ font-family: Quicksand, sans-serif;
 
 header ul,
 .nav-tabs .nav-link,
-.card .btn {
+.card a {
     font-family: Poppins, sans-serif;
     
+}
+
+.card-title {
+    font-weight: 900;
+    font-size: large;
+}
+
+.card-body {
+    text-align: center;
 }
 
 header {
