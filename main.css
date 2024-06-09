@@ -32,6 +32,10 @@ rgb(50, 44, 43)  */
         height: auto;
     }
 
+    .overlay {
+        font-size: 10vw;
+    }
+
 }
 
 /* Se mudar com o menu aberto ele trava */
@@ -74,6 +78,7 @@ header {
     left: 0;
     z-index: 999;
     background-color: #ffffff;
+    
 }
 
 .navbar img {
@@ -95,6 +100,9 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: rgb(128, 128, 128, 0.2);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px; /* Ajuste o valor conforme necessário */
+    border-top-right-radius: 10px;
 }
 
 .navbar h1 {
@@ -158,10 +166,6 @@ body h2 {
     padding: 3.5vw;
 }
 
-.aboutText h5 {
-
-}
-
 h5.card-title {
     font-weight: 600;
 }
@@ -175,13 +179,8 @@ textarea::placeholder {
 
 .overlay {
     position: absolute;
-    top: 0;
-    left: 0;
-
-    display: flex;
-    align-items:end; 
-    justify-content:left;
-    font-size: small;
+    bottom: 0;
+    right:0;
     color: white;
     background-color: black;
 }
@@ -205,4 +204,6 @@ textarea::placeholder {
     font-size: small;
     height: 20px;
     margin-top: 10px;
+    border-bottom-left-radius: 10px; /* Ajuste o valor conforme necessário */
+    border-bottom-right-radius: 10px;
 }
