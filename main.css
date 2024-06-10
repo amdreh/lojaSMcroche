@@ -32,18 +32,19 @@ rgb(50, 44, 43)  */
         height: auto;
     }
 
-    .overlay {
-        font-size: 6vw;
-    }
-
     #title {
         font-size: 30px;
     
     }
 
     #logo img {
-        width: 100px;
+        width: 10vw;
         height: auto;
+    }
+
+    #card {
+        height: auto;
+        width: 70vw;
     }
 
 }
@@ -64,16 +65,16 @@ large > 769
         font-size: 50px;
     }
 
-    .overlay {
-        font-size: 4vw;
-    }
+
     
 }
 
 @media (min-width: 769px) {
-    .overlay {
-        font-size: 2vw;
+
+    .btnHamburguer{
+        display: none;
     }
+    
 
     #title {
         font-size: 60px;
@@ -196,7 +197,6 @@ header {
 
 .card {
     margin: 10px;
-
 }
 
 header li:hover {
@@ -253,10 +253,6 @@ textarea::placeholder {
 
 .card-body  {
     position: relative;
-}
-
-.carousel {
-    max-width:700px;
 }
 
 /* ABOUT */
