@@ -36,6 +36,16 @@ rgb(50, 44, 43)  */
         font-size: 6vw;
     }
 
+    #title {
+        font-size: 30px;
+    
+    }
+
+    #logo img {
+        width: 100px;
+        height: auto;
+    }
+
 }
 
 /* 
@@ -44,7 +54,6 @@ medium > 577 < 768
 large > 769
 */
 
-/* Se mudar com o menu aberto ele trava */
 @media (min-width: 577px) and (max-width: 768px) {
     .btnHamburguer{
         display: none;
@@ -52,6 +61,7 @@ large > 769
 
     #title {
         justify-content: start;
+        font-size: 50px;
     }
 
     .overlay {
@@ -65,6 +75,11 @@ large > 769
         font-size: 2vw;
     }
 
+    #title {
+        font-size: 60px;
+    
+    }
+
 }
 
 * {
@@ -76,6 +91,12 @@ large > 769
 }
 
 /* Header */
+
+body {
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+} 
+
+
 
 h2, h3, h, h5,
 p, label { 
@@ -123,6 +144,8 @@ header {
 
 * img {
     border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
  
 .nav1{
@@ -133,6 +156,7 @@ header {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px; /* Ajuste o valor conforme necessário */
     border-top-right-radius: 10px;
+    height: 100px;
 }
 
 .navbar h1 {
@@ -163,6 +187,11 @@ header {
 #logo {
     display: flex;
     align-items: center;
+    min-width: 100px;
+}
+
+.about {
+    position: relative;
 }
 
 .card {
@@ -205,6 +234,13 @@ textarea::placeholder {
     font-family: Poppins, sans-serif;
 }
 
+/* BOAS VINDAS */
+
+#boasVindas {
+    padding: 5vw;
+    font-weight: 600;
+}
+
 /* PRODUCTS */
 
 .overlay {
@@ -219,11 +255,16 @@ textarea::placeholder {
     position: relative;
 }
 
+.carousel {
+    max-width:700px;
+}
+
 /* ABOUT */
 
 .about img {
     width: 40vw;
     height: 40vw;
+    
 }
 
 /* FOOTER */
@@ -236,4 +277,14 @@ textarea::placeholder {
     margin-top: 10px;
     border-bottom-left-radius: 10px; /* Ajuste o valor conforme necessário */
     border-bottom-right-radius: 10px;
+}
+
+.img {
+    float: left;
+    padding: 16px;
+}
+
+#aboutText {
+    padding: 1vw;
+
 }
