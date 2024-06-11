@@ -36,23 +36,27 @@ document.addEventListener('DOMContentLoaded', function () {
     var modalImg = document.getElementById("modalImagem");
     var imagens = document.querySelectorAll(".imagem-card");
     var span = document.getElementsByClassName("fechar")[0];
+    var body = document.body;
 
     imagens.forEach(function(img) {
         img.onclick = function() {
             modal.style.display = "block";
             modalImg.src = this.src;
+            body.classList.add("no-scroll");
         }
     });
 
     span.onclick = function() {
         modal.style.display = "none";
         modalImg.src = "";
+        body.classList.remove("no-scroll");
     }
 
     window.onclick = function(event) {
         if (event.target == modal) {
             modal.style.display = "none";
             modalImg.src = "";
+            body.classList.remove("no-scroll");
         }
     }
 
