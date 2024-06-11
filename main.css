@@ -197,6 +197,14 @@ header {
 
 .card {
     margin: 10px;
+    justify-content: ;
+    max-width: 250px;
+    min-width: 200px;
+}
+
+#products .col-sm-12{
+    display: flex;
+    justify-content: center;
 }
 
 header li:hover {
