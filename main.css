@@ -349,3 +349,12 @@ textarea::placeholder {
 .no-scroll {
     overflow: hidden;
 }
+
+.card:hover {
+    background-color: rgba(0,0,0,0.1);
+    transform: scale(1.1)
+ }
+
+ .imagem-card:hover {
+    transform: scale(1.1); /* Adicione esta linha para o efeito de zoom */
+}
