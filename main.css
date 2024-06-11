@@ -338,3 +338,8 @@ textarea::placeholder {
     text-decoration: none;
     cursor: pointer;
 }
+
+.modalConteudo img {
+    height: auto;
+    width: 100%;
+}
