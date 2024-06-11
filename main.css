@@ -49,6 +49,11 @@ rgb(50, 44, 43)  */
 
 }
 
+.card-body a {
+    align-items: end;
+    align-content: end;
+}
+
 /* 
 small < 576
 medium > 577 < 768
@@ -212,8 +217,8 @@ header li:hover {
 
 }
 
-.card-footer:last-child {
-    background-color: rgb(128, 128, 128, 0.1);
+.card-title {
+    min-height: 60px;
 }
 
 header ul {
