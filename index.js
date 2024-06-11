@@ -30,5 +30,27 @@ document.addEventListener('DOMContentLoaded', function () {
             toast.show();
         });
     }
+
+    // Pega o modal
+    var modal = document.getElementById("meuModal");
+    var imagens = document.querySelectorAll(".imagem-modal");
+    var span = document.getElementsByClassName("fechar")[0];
+
+    imagens.forEach(function(img) {
+        img.onclick = function() {
+            modal.style.display = "block";
+        }
+    });
+
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+
 });
 
