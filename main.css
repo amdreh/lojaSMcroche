@@ -168,7 +168,6 @@ header {
 .navbar h1 {
     font-family: Merrycle Carved Font;
     font-size: 6vw;
-    padding-right: 9vw;
     
 }
 
@@ -231,7 +230,7 @@ header ul {
 
 body h2 {
     font-weight: 900;
-    padding: 7vw;
+    padding: 5vw;
 }
 
 .aboutText h5 {
@@ -250,7 +249,7 @@ textarea::placeholder {
 /* BOAS VINDAS */
 
 #boasVindas {
-    padding: 5vw;
+    padding: 3vw;
     font-weight: 600;
 }
 
@@ -315,6 +314,19 @@ textarea::placeholder {
     background-color: rgba(0,0,0,0.4); /* Fundo com opacidade */
 }
 
+#contact .card {
+    padding: 1vw;
+
+}
+
+#contact  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
 /* Conteúdo do modal */
 .modalConteudo {
     background-color: #fefefe;
@@ -357,4 +369,13 @@ textarea::placeholder {
 
  .imagem-card:hover {
     transform: scale(1.1); /* Adicione esta linha para o efeito de zoom */
+}
+
+form .form-group {
+    padding: 1vw;
+}
+
+form .btn {
+    
+    
 }

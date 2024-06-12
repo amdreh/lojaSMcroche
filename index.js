@@ -20,16 +20,28 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     // Para chamar o toast
-    const ativaToast = document.getElementById('btnSubmit');
-    const msg = document.getElementById('msgEmailEnviado');
+    // Seletor do formulário
+    const form = document.querySelector('form');
+    
+    // Seletor do toast
+    const toast = new bootstrap.Toast(document.getElementById('msgEmailEnviado'));
 
-    if (ativaToast) {
-        ativaToast.addEventListener("click", function (event) {
-            event.preventDefault(); // Previne o envio do formulário
-            const toast = new bootstrap.Toast(msg);
+    // Função para validar o formulário
+    form.addEventListener('submit', function(event) {
+        event.preventDefault(); // Impede o envio do formulário
+
+        // Verifica se o formulário é válido
+        if (form.checkValidity()) {
+            // Mostra o toast
             toast.show();
-        });
-    }
+
+            // Limpa o formulário
+            form.reset();
+        } else {
+            // Mostra os erros de validação padrão do HTML5
+            form.classList.add('was-validated');
+        }
+    }, false);
 
     // Pega o modal
     var modal = document.getElementById("meuModal");
@@ -59,6 +71,10 @@ document.addEventListener('DOMContentLoaded', function () {
             body.classList.remove("no-scroll");
         }
     }
+
+    // Botão enviar
+
+    
 
 });
 
