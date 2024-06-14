@@ -98,9 +98,9 @@ large > 769
 
 /* Header */
 
-html body, #header {
+html body {
     font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-    background-color: rgb(228, 197, 158, 0.1);;
+    background-color: rgb(228, 197, 158, 0.5);;
 } 
 
 
@@ -147,6 +147,7 @@ body .header {
     width: 100%;
     display: flex;
     border-bottom: 1vw solid rgb(175, 130, 96);
+    background-color: rgb(228, 197, 158, 0.1);
     
     
 }
@@ -161,7 +162,7 @@ body .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(228, 197, 158, 0.1);
+    background-color: rgb(228, 197, 158, 0.9);
     border-top-right-radius: 10px;
     border-top-left-radius: 10px; /* Ajuste o valor conforme necessário */
     border-top-right-radius: 10px;
@@ -175,7 +176,7 @@ body .header {
 }
 
 #header {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgb(228, 197, 158, 0.2);
     
 }
 
@@ -190,17 +191,17 @@ body .header {
 }
 
 .navbar .nav2{
-    background-color: rgb(228, 197, 158, 0.1);
+    background-color: rgb(228, 197, 158, 0.5);
     width: 100%;
 
 }
 
 .navbar btn {
-    border: 5px solid rgb(228, 197, 158, 0.1); 
+    border: 5px solid rgb(228, 197, 158, 0.3); 
 }
 
 .btnHamburguer {
-    border: 5px solid rgb(228, 197, 158, 0.1); 
+    border: 5px solid rgb(228, 197, 158, 0.3); 
 }
 
 #logo {
@@ -226,7 +227,7 @@ body .header {
 }
 
 header li:hover {
-    background-color: rgb(228, 197, 158, 0.1);
+    background-color: rgb(228, 197, 158, 0.3);
 
 }
 
@@ -235,7 +236,7 @@ header li:hover {
 }
 
 header ul {
-    background-color: rgb(228, 197, 158, 0.1);
+    background-color: rgb(228, 197, 158, 0.3);
 }
 
 .aboutText {
@@ -286,7 +287,6 @@ textarea::placeholder {
 /* FOOTER */
 
 .footer {
-    background-color:rgb(228, 197, 158, 0.1);
     text-align: center;
     font-size: small;
     height: 20px;
@@ -319,7 +319,7 @@ textarea::placeholder {
     height: 100%; /* Altura total */
     overflow: hidden;
     background-color: rgb(50, 44, 43); /* Fundo preto com opacidade */
-    background-color: rgb(228, 197, 158, 0.1); /* Fundo com opacidade */
+    background-color: rgb(228, 197, 158, 0.3); /* Fundo com opacidade */
 }
 
 #contact .card {
@@ -328,7 +328,7 @@ textarea::placeholder {
 }
 
 .container {
-    background-color: rgb(228, 197, 158, 0.1);
+    background-color: rgb(228, 197, 158, 0.3);
 }
 
 #contact  {
@@ -375,7 +375,7 @@ textarea::placeholder {
 }
 
 .card:hover {
-    background-color: rgb(228, 197, 158, 0.1);
+    background-color: rgb(228, 197, 158, 0.3);
     transform: scale(1.05)
  }
 
@@ -388,11 +388,15 @@ form .form-group {
 }
 
 .card .img-thumbnail {
-    background-color: rgb(228, 197, 158, 0.1);
+    background-color: rgb(228, 197, 158, 0.3);
 }
 
 .card .img-thumbnail:hover {
-    background-color: rgb(228, 197, 158, 0.1);
+    background-color: rgb(228, 197, 158, 0.3);
     /* opacity: 90%; */
     filter: contrast(110%) saturate(110%) brightness(110%);
+}
+
+header li:hover {
+    background-color: rgb(228, 197, 158, 0.9);
 }
