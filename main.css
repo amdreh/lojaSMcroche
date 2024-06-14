@@ -117,6 +117,12 @@ header ul,
     
 }
 
+header ul,
+.nav-tabs .nav-link{
+    text-shadow: 1px 1px 3px rgb(255, 255, 255);
+    
+}
+
 .card-title {
     font-weight: 900;
     font-size: large;
@@ -133,6 +139,16 @@ header ul,
     z-index: 999;  
 }
 
+header .nav1 {
+    
+    border-bottom: 1vw solid rgb(175, 130, 96, 0.5);
+}
+
+header .nav2 {
+    border-bottom: 1vw solid rgb(228, 197, 158, 0.5);
+
+}
+
 body .header {
     /* background-color: rgb(228, 197, 158, 0.1); */
 }
@@ -144,14 +160,7 @@ body .header {
     
 }
 
-.header {
-    width: 100%;
-    display: flex;
-    border-bottom: 1vw solid rgb(175, 130, 96);
-    /* background-color: rgb(228, 197, 158, 0.9); */
-    
-    
-}
+
 
 * img {
     border-radius: 10px;
@@ -166,7 +175,6 @@ body .header {
     background-color: rgb(175, 130, 96, 0.75);
     border-top-right-radius: 10px;
     border-top-left-radius: 10px; /* Ajuste o valor conforme necessário */
-    border-top-right-radius: 10px;
     height: 100px;
     
 }
@@ -333,9 +341,12 @@ textarea::placeholder {
     padding: 1vw;
 
 }
-
+ 
+#meuContainer {
+    background-color: rgb(228, 197, 158, 0.5);
+}
 .container {
-    background-color: rgb(228, 197, 158, 0.3);
+    /* background-color: rgb(228, 197, 158, 3); */
 }
 
 #contact  {
