@@ -94,13 +94,14 @@ large > 769
     box-sizing: border-box;
     text-rendering: optimizeLegibility;
     transition: all 0.4s ease-in-out;
+    color: rgb(50, 44, 43);
 }
 
 /* Header */
 
 html body {
     font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-    background-color: rgb(228, 197, 158, 0.5);;
+    background-color: rgb(228, 197, 158, 0.5);
 } 
 
 
@@ -133,7 +134,7 @@ header ul,
 }
 
 body .header {
-    background-color: rgb(228, 197, 158, 0.1);
+    /* background-color: rgb(228, 197, 158, 0.1); */
 }
   
 
@@ -147,7 +148,7 @@ body .header {
     width: 100%;
     display: flex;
     border-bottom: 1vw solid rgb(175, 130, 96);
-    background-color: rgb(228, 197, 158, 0.1);
+    /* background-color: rgb(228, 197, 158, 0.9); */
     
     
 }
@@ -162,11 +163,12 @@ body .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(228, 197, 158, 0.9);
+    background-color: rgb(175, 130, 96, 0.75);
     border-top-right-radius: 10px;
     border-top-left-radius: 10px; /* Ajuste o valor conforme necessário */
     border-top-right-radius: 10px;
     height: 100px;
+    
 }
 
 .navbar h1 {
@@ -182,6 +184,7 @@ body .header {
 
 .navbar a {
     text-align: center;
+    
 }
 
 .nav2 .nav-link.active {
@@ -191,8 +194,9 @@ body .header {
 }
 
 .navbar .nav2{
-    background-color: rgb(228, 197, 158, 0.5);
+    background-color: rgb(175, 130, 96, 0.25);
     width: 100%;
+    
 
 }
 
@@ -237,6 +241,7 @@ header li:hover {
 
 header ul {
     background-color: rgb(228, 197, 158, 0.3);
+    
 }
 
 .aboutText {
@@ -286,14 +291,16 @@ textarea::placeholder {
 
 /* FOOTER */
 
-.footer {
+.footer, .footer .col {
     text-align: center;
     font-size: small;
     height: 20px;
-    margin-top: 10px;
+    margin-bottom: 10px;
     border-bottom-left-radius: 10px; /* Ajuste o valor conforme necessário */
     border-bottom-right-radius: 10px;
 }
+
+
 
 .img {
     float: left;
@@ -399,4 +406,12 @@ form .form-group {
 
 header li:hover {
     background-color: rgb(228, 197, 158, 0.9);
+}
+
+#cardContact {
+    margin-bottom: 50px;
+}
+
+.footer .col {
+    background-color: rgb(128, 61, 59, 0.5);
 }
