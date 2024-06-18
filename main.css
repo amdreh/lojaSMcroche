@@ -108,6 +108,13 @@ large > 769
     color: rgb(50, 44, 43);
 }
 
+.box {
+    height:50px; /* Define a altura do elemento */
+    border-left: 25px solid rgb(128, 61, 59); /* Define a borda esquerda */
+    width: auto;
+    background-color: #f0f0f0; /* Cor de fundo para visualização */
+}
+
 /* Header */
 
 html body {
@@ -214,7 +221,7 @@ header .nav2 {
 
 .nav2 .nav-link.active {
     color: rgb(128, 61, 59) !important; 
-    border-bottom: 2px solid rgb(128, 61, 59);
+    border: 1px solid rgb(128, 61, 59, 0.5);
     background-color: transparent !important; 
 }
 
@@ -247,7 +254,6 @@ header .nav2 {
     margin: 10px;
     max-width: 250px;
     min-width: 200px;
-    background-color: black;
 }
 
 #products .col-sm-12{
@@ -271,7 +277,7 @@ header ul {
 section h2 {
     font-weight: 900;
     padding: 5vw;
-    border-left: 25px solid rgb(128, 61, 59);
+    /* border-left: 25px solid rgb(128, 61, 59); */
 }
 
 .aboutText h5 {
@@ -439,6 +445,11 @@ header li:hover {
 
     background: rgba(128, 61, 59, 0.2);
     backdrop-filter: blur(1px);
+    border-radius: 10px;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: black;
 }
 
 #cardContact {
