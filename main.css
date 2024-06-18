@@ -156,19 +156,14 @@ header .nav1 {
     border-bottom: 1vw solid rgb(175, 130, 96, 0.5);
 }
 
-header .navbar {
-    background-color: rgb(228, 197, 158, 0.1);
-}
+/* header .navbar {
+    background-color: rgb(128, 61, 59, 0.1);
+} */
 
 header .nav2 {
     border-bottom: 1vw solid rgb(228, 197, 158, 0.5);
 
-}
-
-body .header {
-    /* background-color: rgb(228, 197, 158, 0.9); */
-}
-  
+} 
 
 .navbar img {
     height: 20vw;
@@ -184,6 +179,7 @@ body .header {
     margin-right: auto;
 }
  
+
 .nav1{
     display: flex;
     justify-content: space-between;
@@ -193,6 +189,11 @@ body .header {
     border-top-left-radius: 10px; /* Ajuste o valor conforme necessário */
     height: 100px;
     
+}
+
+.nav-pills, .nav1 {
+    /* background: rgba(128, 61, 59, 0.2); */
+    backdrop-filter: blur(1.5px);
 }
 
 .navbar h1 {
@@ -246,16 +247,12 @@ body .header {
     margin: 10px;
     max-width: 250px;
     min-width: 200px;
+    background-color: black;
 }
 
 #products .col-sm-12{
     display: flex;
     justify-content: center;
-}
-
-header li:hover {
-    background-color: rgb(228, 197, 158, 0.3);
-
 }
 
 .card-title {
@@ -271,9 +268,10 @@ header ul {
     display: block;
 }
 
-body h2 {
+section h2 {
     font-weight: 900;
     padding: 5vw;
+    border-left: 25px solid rgb(128, 61, 59);
 }
 
 .aboutText h5 {
@@ -410,11 +408,15 @@ textarea::placeholder {
     overflow: hidden;
 }
 
-.card:hover {
-    background-color: rgb(228, 197, 158, 0.3);
+#card {
+    background-color: rgba(228, 197, 158, 0.9);
+}
+
+#card:hover {
+    background-color: rgb(128, 61, 59, 0.2);
     transform: scale(1.05)
  }
-
+ 
  .imagem-card:hover {
     transform: scale(1.05);
 }
@@ -434,7 +436,9 @@ form .form-group {
 }
 
 header li:hover {
-    background-color: rgb(228, 197, 158, 0.7);
+
+    background: rgba(128, 61, 59, 0.2);
+    backdrop-filter: blur(1px);
 }
 
 #cardContact {
